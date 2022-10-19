@@ -1,0 +1,43 @@
+.container{
+  width: 300px;
+  margin: 0 auto;
+}
+.todo-form{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.todo-form input{
+  width: 100%;
+}
+
+.todo-list > li{
+  margin-top: 5px;
+}
+
+.todo-list > li >div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-list button{
+  margin-left: 5px;
+}
+
+button{
+  width: 30px;
+  height: 30px;
+}
+
+.btn-floating i{
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+.align{
+  display: flex;
+  align-items: center;
+}
